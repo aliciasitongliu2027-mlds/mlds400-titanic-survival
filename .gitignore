@@ -1,0 +1,20 @@
+# Ignore downloaded Titanic datasets
+src/data/*
+!src/data/.gitkeep
+
+# macOS files
+.DS_Store
+
+# Python environments and cache
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environment variables and credentials
+.env
+
+# R temporary files
+.Rhistory
+.RData
